@@ -1,10 +1,20 @@
-import React from "react";
+import Head from "next/head";
 
 function HomePage() {
   return (
-    <main>
-      <h1>My Blog</h1>
-    </main>
+    <>
+      <Head>
+        <title>My Blog</title>
+      </Head>
+      <main>
+        <h1>My Blog</h1>
+        <ul>
+          <li>One</li>
+          <li>Two</li>
+          <li>Three</li>
+        </ul>
+      </main>
+    </>
   );
 }
 
